@@ -39,7 +39,10 @@ public class PathInterpolator {
     static Boolean init = false;
 
     static int sequencer = 0;
-
+    
+    /**
+    *@ fileName - must be saved to computer.
+    **/
     public static void setFile(String fileName) {
         System.out.print("raw_r = ");
         FileReader.scanToList(fileName, raw_r, 0);
